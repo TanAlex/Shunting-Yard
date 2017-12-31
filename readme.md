@@ -7,7 +7,6 @@ In order to parse the query string like that, I have to use some CS algorithms.
 
 The easiest one I found is the 
 * [Shunting-yard algorithm ](https://en.wikipedia.org/wiki/Shunting-yard_algorithm)
-and
 * [Reverse Polish notation (RPN)](https://en.wikipedia.org/wiki/Reverse_Polish_notation)
 
 ### Implementation
@@ -178,4 +177,4 @@ user.name == 'TT LL '
 rpn result: false
 ```
 
-This is really a really simple but super powerful way to parse query and generate dynamic result.
+This is really a simple but super powerful way to parse query and generate dynamic result.
